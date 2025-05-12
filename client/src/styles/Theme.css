@@ -1,0 +1,30 @@
+/* Light Mode (Default) */
+body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Dark Mode */
+  body.dark-mode {
+    background-color: #121212;
+    color: white;
+  }
+  
+  /* Theme Toggle Button */
+  .theme-toggle {
+    padding: 8px 12px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  body.dark-mode .theme-toggle {
+    background-color: white;
+    color: black;
+  }
+  
+  
